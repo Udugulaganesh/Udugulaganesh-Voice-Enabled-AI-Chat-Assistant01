@@ -1,7 +1,7 @@
 # Keep all except Windows-only libs
 SpeechRecognition==3.14.1
 pyttsx3==2.98
-PyAudio==0.2.14
+
 opencv-python==4.6.0.66
 pillow==11.2.1
 matplotlib==3.10.3
