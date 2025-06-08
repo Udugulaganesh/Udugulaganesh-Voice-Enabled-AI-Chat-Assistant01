@@ -1,4 +1,5 @@
 import os
+import platform
 import google.generativeai as genai
 from apikey import api_data  # Your Gemini API Key
 import speech_recognition as sr
@@ -10,7 +11,11 @@ genai.configure(api_key=api_data)
 model = genai.GenerativeModel("models/gemini-1.5-flash")  # Fast, lightweight, compatible
 
 # Voice output setup
-engine = pyttsx3.init('sapi5')
+if platform.system() == "Windows":
+    engine = pyttsx3.init('sapi5')
+else:
+    engine = pyttsx3.init()  # Use default driver on non-Windows platforms
+
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
