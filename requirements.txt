@@ -1,16 +1,12 @@
-# 🔊 Voice Interaction
+# Keep all except Windows-only libs
 SpeechRecognition==3.14.1
 pyttsx3==2.98
 PyAudio==0.2.14
-
-# 🎥 Computer Vision & Imaging
 opencv-python==4.6.0.66
 pillow==11.2.1
 matplotlib==3.10.3
 scipy==1.15.3
 numpy==2.2.6
-
-# 🌐 Web Scraping & Automation
 beautifulsoup4==4.13.3
 soupsieve==2.6
 Js2Py==0.74
@@ -21,13 +17,9 @@ requests==2.32.3
 urllib3==2.3.0
 charset-normalizer==3.4.1
 idna==3.10
-
-# 🧠 Generative AI APIs
 openai==1.72.0
 google-generativeai==0.8.5
 google-ai-generativelanguage==0.6.15
-
-# 🔐 Google Auth & API Clients
 google-auth==2.40.3
 google-auth-httplib2==0.2.0
 google-api-python-client==2.171.0
@@ -41,8 +33,6 @@ pyasn1==0.6.1
 pyasn1_modules==0.4.2
 uritemplate==4.2.0
 cachetools==5.5.2
-
-# 📦 Data, Time & Parsing
 python-dateutil==2.9.0.post0
 tzdata==2025.1
 tzlocal==5.3
@@ -51,23 +41,12 @@ typing_extensions==4.12.2
 annotated-types==0.7.0
 packaging==24.2
 six==1.17.0
-
-# 🎛️ Visualization & Tools
 colorama==0.4.6
 tqdm==4.67.1
 cycler==0.12.1
 fonttools==4.58.0
 kiwisolver==1.4.8
 jiter==0.8.2
-
-# 🧰 Windows Environment (Optional but helpful)
-pywin32==308
-pypiwin32==223
-pipwin==0.5.2
-comtypes==1.4.10
-distro==1.9.0
-
-# ⚙️ CLI + Error Handling + Models
 docopt==0.6.2
 exceptiongroup==1.2.2
 pydantic==2.10.3
